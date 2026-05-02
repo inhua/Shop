@@ -1,0 +1,76 @@
+# ========================
+# Xcode / iOS 相关
+# ========================
+
+# Xcode 构建生成的中间文件和缓存
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.xcarchive
+
+# Xcode 用户特定数据（包含个人偏好、断点、窗口布局等，不应共享）
+*.xcuserstate
+xcuserdata/
+
+# CocoaPods 依赖管理
+# 如果团队使用 CocoaPods，通常忽略 Pods 目录，但保留 Podfile.lock 以确保版本一致
+# 注意：有些团队策略不同，若需共享依赖库则不忽略 Pods/，但一般建议忽略
+Pods/
+# Podfile.lock 通常建议提交，以锁定依赖版本，除非有特殊需求
+# Podfile.lock 
+
+# Swift Package Manager (SPM)
+.swiftpm/
+Packages/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+
+# ========================
+# macOS 系统文件
+# ========================
+
+# macOS 自动生成的隐藏文件，常引起不必要的冲突
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ========================
+# 编辑器与 IDE
+# ========================
+
+# Vim
+*.swp
+*~
+
+# VS Code
+.vscode/
+*.code-workspace
+*.kiro
+
+# AppCode / IntelliJ
+.idea/
+
+# ========================
+# 其他通用忽略
+# ========================
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 隐私与安全（绝对不要提交）
+*.pem
+*.p12
+*.keystore
+.env
+
+Components/
+.kiro/
+

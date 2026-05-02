@@ -1,0 +1,75 @@
+PODS:
+  - ShopBase (1.0.0):
+    - ShopMediator
+    - ShopRouter
+  - ShopBusinessBase (1.0.0):
+    - ShopBase
+    - ShopRouter
+  - ShopCart (1.0.0):
+    - ShopBase
+    - ShopBusinessBase
+    - ShopMediator
+    - ShopRouter
+  - ShopHome (1.0.0):
+    - ShopBase
+    - ShopMediator
+    - ShopProduct
+    - ShopRouter
+  - ShopLogin (1.0.0):
+    - ShopBase
+    - ShopBusinessBase
+    - ShopMediator
+    - ShopRouter
+  - ShopMediator (1.0.0)
+  - ShopMessage (1.0.0):
+    - ShopBase
+    - ShopMediator
+    - ShopRouter
+  - ShopMine (1.0.0):
+    - ShopBase
+    - ShopBusinessBase
+    - ShopMediator
+    - ShopRouter
+  - ShopProduct (1.0.0):
+    - ShopBase
+    - ShopMediator
+    - ShopRouter
+  - ShopRouter (1.0.0):
+    - ShopMediator
+
+DEPENDENCIES:
+  - ShopCart
+  - ShopHome
+  - ShopLogin
+  - ShopMessage
+  - ShopMine
+  - ShopProduct
+
+SPEC REPOS:
+  https://github.com/inhua/ShopSpecs.git:
+    - ShopBase
+    - ShopBusinessBase
+    - ShopCart
+    - ShopHome
+    - ShopLogin
+    - ShopMediator
+    - ShopMessage
+    - ShopMine
+    - ShopProduct
+    - ShopRouter
+
+SPEC CHECKSUMS:
+  ShopBase: 8c57d0b93f9945d12a68f364d86d9ecddf5e3340
+  ShopBusinessBase: 2d3a41b80f379fdfc66b79d66bdb7a2c03183ea3
+  ShopCart: e19d69ee5c01a30ac928326e718e506a7af2c51f
+  ShopHome: ee2623d722166233dcdd98d0418fbd6a5b237186
+  ShopLogin: 9276151d4aa4ddc269c84cc147a8049605c8392c
+  ShopMediator: 497b7188bdbd5ca69d8b8b876e7de571154436e7
+  ShopMessage: 15203928aa02e19e6b74639b419377b592f95c5b
+  ShopMine: e84d3147b22e38350dd967dee3988e0ad6521a37
+  ShopProduct: 8ca4cce96d9715576759cb7924079d5b7ab1a089
+  ShopRouter: ce413bb9e0587ef19f72449e1d548f1bd4bdfd35
+
+PODFILE CHECKSUM: 1761ca15b91272e01edeb804fb3f0d4277c31cf6
+
+COCOAPODS: 1.16.2
