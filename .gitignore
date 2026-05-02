@@ -49,7 +49,7 @@ Carthage/Build/
 # VS Code
 .vscode/
 *.code-workspace
-*.kiro
+
 
 # AppCode / IntelliJ
 .idea/
@@ -71,6 +71,9 @@ Carthage/Build/
 *.keystore
 .env
 
+*.xcworkspace
 Components/
 .kiro/
+ShopSpecs/
+scripts/
 
